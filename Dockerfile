@@ -1,5 +1,5 @@
 FROM golang:rc-alpine3.13 AS builder
-RUN go get github.com/sberk42/fritzbox_exporter/
+RUN go get github.com/ck99io/fritzbox_exporter/
 
 FROM alpine:latest
 ENV USERNAME username
